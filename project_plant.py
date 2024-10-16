@@ -277,10 +277,9 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.utils import simpleSplit
 
 # Initialize the Google Generative AI model
-genai.configure(api_key="AIzaSyDcq55RNDRfWRQ3kRPj8avcb6KaTGVony8")  # Replace with your actual API key
+genai.configure(api_key=" ")  
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-# Define the images you have stored in your content folder
 images_folder = '/content'
 image_filenames = [
     'kmeanscluster.png',
